@@ -5,7 +5,7 @@ FROM php:8.2-cli
 WORKDIR /usr/src/app
 
 # Copy PHP file into the container
-COPY accueil.php /usr/src/app/
+COPY Vue/html/accueil.php /usr/src/app/
 
 # Expose port 80 (optional for CLI server)
 EXPOSE 80
